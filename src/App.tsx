@@ -1,5 +1,6 @@
 import './App.css'
 import Button from './components/Button'
+import Container from './components/Container'
 import { Greet } from './components/Greet'
 import Header from './components/Header'
 import Input from './components/Input'
@@ -41,9 +42,10 @@ function App() {
         </Header>
       </Oscar>
       <Button handleClick={(event, id) => {
-        alert('Button', event, id)
+        alert(event)
       }} />
       <Input value='' handleChange={event => alert(event)}/>
+      <Container styles={{border: '1px solid black'}}/>
     </div>
   )
 }
