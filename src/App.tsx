@@ -29,6 +29,10 @@ function App() {
     {
       first: 'Brce',
       last: 'Wayne',
+    },
+    {
+      first: 'Brce',
+      last: 'Wayne',
     }
   ]
   return (
