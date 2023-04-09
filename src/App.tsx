@@ -11,6 +11,8 @@ import LoggedIn from './components/state/LoggedIn'
 import User from './components/state/User'
 import Counter from './components/Counter'
 import { Status } from './components/Status'
+import { Context } from './components/context/Context'
+import List from './components/generics/List'
 
 function App() {
   const personName = {
@@ -56,6 +58,9 @@ function App() {
       <LoggedIn />
       <User/>
       <Counter />
+      <Context />
+      <List items={['try', 'test', 'try']} onClick={(item) => console.log(item)} />
+      <List items={[1, 2, 3]} onClick={(item) => console.log(item)} />
     </div>
   )
 }
