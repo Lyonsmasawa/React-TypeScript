@@ -9,6 +9,7 @@ import { Person } from './components/Person'
 import { PersonList } from './components/PersonList'
 import LoggedIn from './components/state/LoggedIn'
 import User from './components/state/User'
+import Counter from './components/Counter'
 import { Status } from './components/Status'
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
       <Container styles={{border: '1px solid black'}}/>
       <LoggedIn />
       <User/>
+      <Counter />
     </div>
   )
 }
